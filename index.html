@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - JE-AL L. LABARRO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="background1">
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio sa Gwapo</a>
+        <div class="navbar-nav">
+            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#personal-info">Personal Information</a>
+            <a class="nav-link" href="#education">Educational Background</a>
+            <a class="nav-link" href="#conferences">Conferences</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container1 mt-4">
+    <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-8 text-center text-md-start">
+            <h1 class="mb-4">Je-al Labadan Labarro</h1>
+            <p class="lead">San Miguel, Manolo Fortich, Bukidnon<br>+63967 605 6127 | 20211615@nbsc.edu.ph</p>
+        </div>
+        <!-- Photo -->
+        <div class="col-md-4 text-center">
+            <img src="C:\Users\Labarro Family\Desktop\portfoliojealabs\pik.png" alt="Je-al Labadan Labarro" class="profile-photo">
+        </div>
+    </div>
+</div>
+
+<div class="margin1">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="card zoom-effect">
+                <div class="card-body">
+                    <p class="p1">Hello. I am JE-AL L. LABARRO, a student of Information Technology, Northern Bukidnon State College. I want to help create new technologies for solutions, make effective and user-friendly systems, and do good in various fields in IT while continually learning and enhancing my skills as a professional. In order to advance my skills, I attend conferences, training, and seminars. I am willing to use all the knowledge gained and experiences obtained to make positive changes in technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="personal-info">
+            <h2 class="section-title">Personal Information</h2>
+            <div class="card zoom-effect">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>Age:</strong> 21</li>
+                        <li class="list-group-item"><strong>Birthday:</strong> December 6, 2002</li>
+                        <li class="list-group-item"><strong>Birthplace:</strong> Cagayan De Oro</li>
+                        <li class="list-group-item"><strong>Nationality:</strong> Filipino</li>
+                        <li class="list-group-item"><strong>Religion:</strong> Roman Catholic</li>
+                        <li class="list-group-item"><strong>Civil Status:</strong> Single</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Educational Background</h2>
+            <div class="card zoom-effect">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <strong>Tertiary:</strong> Bachelor of Science in Information Technology<br>Northern Bukidnon State College, Manolo Fortich, Bukidnon (2021-Present)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Secondary:</strong> Manolo Fortich National High School<br>Manolo Fortich, Bukidnon (2015-2021)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Primary:</strong> San Miguel Elementary School<br>San Miguel, Manolo Fortich, Bukidnon (2009-2015)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="conferences">
+            <h2 class="section-title">Conferences / Training / Seminars Attended</h2>
+            <div class="card zoom-effect">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Capstone Mentoring and Pitch Deck Empowerment - Northern Bukidnon State College (September 4, 2024)</li>
+                        <li class="list-group-item">Empowering Businesses Through Digital Banking - Session via Zoom (September 5, 2024)</li>
+                        <li class="list-group-item">Spark: Fast-Track Your AI Copywriting Skills - Session via Zoom (September 10, 2024)</li>
+                        <li class="list-group-item">5G Mobile Networks - Session via Zoom (October 5, 2024)</li>
+                        <li class="list-group-item">Artificial Intelligence/Machine Learning - Session via Zoom (October 12, 2024)</li>
+                        <li class="list-group-item">AI Ethics and Governance - Webinar Session via Zoom (October 19, 2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 JE-AL L. LABARRO - PORTFOLIO SA GWAPO.  All Rights Reserved.</p>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function () {
+                document.querySelectorAll('.section-title').forEach(title => {
+                    title.classList.remove('glow');
+                });
+                const section = document.querySelector(this.getAttribute('href'));
+                section.querySelector('.section-title').classList.add('glow');
+            });
+        });
+    </script>
+    
+    </body>
+
+</html>
