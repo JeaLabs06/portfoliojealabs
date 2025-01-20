@@ -8,15 +8,13 @@ body {
 
 .navbar {
     padding: 1rem;
-    background-image: url('1.png'); /* Adjust the path as necessary */
+    background-image: url('1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
 .navbar-brand {
-    
     color: #fff;
     font-weight: bold;
     font-size: 21px;
@@ -27,7 +25,6 @@ body {
 .navbar-brand:hover {
     color: #c2b5b5;
     text-shadow: 0 0 100px #04C740, 0 0 50px #04C740;
-
 }
 
 .nav-link {
@@ -45,12 +42,14 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
 }
+
 .container1 {
     color: #ffffff;
     max-width: 820px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
+
 .section-title {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -68,7 +67,6 @@ body {
 }
 
 .card {
-    
     margin-bottom: 1.5rem;
     border: none;
     border-radius: 8px;
@@ -76,7 +74,7 @@ body {
 
 .card-body {
     padding: 1.5rem;
-    background-color:#040E07;;
+    background-color: #040E07;
 }
 
 .list-group-item {
@@ -88,7 +86,8 @@ body {
 .list-group-item + .list-group-item {
     border-top: 1px solid #ffffff;
 }
-.list-group{
+
+.list-group {
     --bs-list-group-color: #ffffff;
 }
 
@@ -113,23 +112,25 @@ footer p {
 .zoom-effect:hover {
     transform: scale(1.03);
 }
+
 .img-fluid {
     max-width: 200px;
     height: auto;
+}
 
-}
-/* Specific styles for the profile photo */
 .profile-photo {
-    max-width: 200px; /* Limits the width of the image */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 50%; /* Makes the image circular */
-    margin: 0 auto; /* Centers the image in the column */
-    display: block; /* Ensures proper centering */
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
 }
-.margin1{
+
+.margin1 {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .nav-link {
     color: #fff;
     margin-right: 15px;
@@ -138,15 +139,18 @@ footer p {
 
 .nav-link:hover {
     color: #04C740;
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-size: 1.2rem;
 }
-.background1{
+
+.background1 {
     background-color: #040E07;
 }
-.p1{
+
+.p1 {
     text-align: justify;
     color: #ffffff;
 }
-html{
+
+html {
     zoom: 100%;
 }
